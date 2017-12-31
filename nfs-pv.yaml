@@ -10,4 +10,4 @@ spec:
   nfs:
     # FIXME: use the right IP
     server: 172.16.0.60
-path: "/var/nfs"
+    path: "/var/nfs"
