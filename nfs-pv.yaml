@@ -3,6 +3,7 @@ kind: PersistentVolume
 metadata:
   name: nfs
 spec:
+  storageClassName: mynfs
   capacity:
     storage: 50Gi
   accessModes:
