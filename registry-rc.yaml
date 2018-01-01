@@ -32,7 +32,7 @@ spec:
               memory: 100Mi
           env:
             - name: REGISTRY_HTTP_ADDR
-              value: "5000"
+              value: "0.0.0.0:5000"
             - name: REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY
               value: "/var/lib/registry"
           volumeMounts:
